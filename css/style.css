@@ -251,10 +251,8 @@ padding-left: 472px;
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
-    margin-bottom: 72px;border-top-left-radius: 0px;
-        border-top-right-radius: 0px;
-        border-top-right-radius: 4px;
-        border-bottom-left-radius: 4px;
+    margin-bottom: 72px;
+    border-radius: 0px 0px 4px 4px;
 }
 .nav-list-command {
     display: flex;
@@ -262,6 +260,7 @@ padding-left: 472px;
     justify-content: center;
     padding-left: 0;
     margin-left: 0;
+    border-radius: 0px 0px 4px 4px;
 }
 
 .nav-list-command:first-child{
@@ -269,14 +268,15 @@ padding-left: 472px;
 }
 
 .command-link {
-    border-radius: 0px 0px 4px 4px;
+    
     width: calc((100% - 3 * 24px) /4);
     background-color: #ffffff;
+    border-radius: 0px 0px 4px 4px;
 }
 
 .container-name {
     padding: 32px 0px;
-
+    border-radius: 0px 0px 4px 4px;
 }
 
 .base-h-tri {
@@ -392,7 +392,7 @@ padding-left: 472px;
         text-transform: uppercase;
         margin-bottom: 16px;
         color: #4d5ae5;
-        display: inline-block;
+        display: block;
         
         
 
