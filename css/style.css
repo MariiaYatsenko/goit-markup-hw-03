@@ -29,7 +29,9 @@ a {
 text-align: center;
 margin: auto 0;
 padding-left: 472px;
-padding: 188px 0 188px;
+padding-top: 188px;
+padding-bottom: 188px;
+    
 
 }
 
