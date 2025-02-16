@@ -273,7 +273,7 @@ display: flex;
 
 }
 .command-link-f{
-    border-radius: 0px 0px 4px 4px;
+    border-radius: 4px;
 
     width: calc((100% – 3*24px) / 4);
     display: block;
