@@ -29,8 +29,7 @@ a {
 text-align: center;
 margin: auto 0;
 padding-left: 472px;
-padding-top: 188px;
-padding-bottom: 188px;
+
     
 
 }
@@ -138,6 +137,8 @@ padding-bottom: 188px;
 
 .business {
     background-color: #2e2f42;
+    padding-top: 188px;
+        padding-bottom: 188px;
 }
 
 .business-h {
