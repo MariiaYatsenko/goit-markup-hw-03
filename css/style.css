@@ -87,7 +87,7 @@ padding-left: 472px;
 .nav-list-section {
     display: flex;
     margin-right: 0;
-    width: calc((100% - 72px) / 4);
+    width: calc((100% - 3 * 24px) / 4);
     gap: 24px; 
 
 }
