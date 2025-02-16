@@ -87,7 +87,6 @@ padding-left: 472px;
 .nav-list-section {
     display: flex;
     margin-right: 0;
-    width: calc((100% - 3 * 24px) / 4);
     gap: 24px; 
 
 }
@@ -192,7 +191,9 @@ padding-left: 472px;
     background: #404BBF;
     
 }
-
+.base-h{
+    width: calc((100% - 3 * 24px) / 4);
+}
 .base-h-two {
    position: absolute;
    width: 1px;
