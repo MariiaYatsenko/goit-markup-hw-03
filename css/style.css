@@ -25,8 +25,7 @@ a {
 }
 
 .two-container {
-width: 1440px;
-height: 600px;
+padding: 188px 0;
 }
 
 .headr{
@@ -141,6 +140,7 @@ height: 600px;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+    max-width: 496px;
 }
 
 .button-business {
@@ -154,6 +154,11 @@ height: 600px;
     border-radius: 4px;
     padding: 16px 32px;
    margin-top: 48px;
+display: block;
+min-width: 169p;
+height: 56px;
+border: none;
+cursor: pointer;
     
 }
 
