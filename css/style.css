@@ -92,13 +92,6 @@ padding-left: 472px;
     gap: 24px; 
 
 }
-.nav-list-section:last-child {
-    
-}
-
-.nav-list-section:first-child {
-    
-}
 
 .nav-list {
     display: flex;
@@ -107,11 +100,7 @@ padding-left: 472px;
 
 }
 
-.nav-list-command {
-    display: flex;
-    gap: 24px;
 
-}
 
 
 
@@ -224,31 +213,11 @@ padding-left: 472px;
 
 }
 
-.base-h-two-van {
-    font-weight: 700;
-        font-size: 36px;
-        line-height: 1.11;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: #2e2f42;
-        text-transform: capitalize;
-        margin-bottom: 72px;
-}
 
 
 
-.base-h-tri {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    padding-inline-end: 0%;
-    text-align: center;
-    padding-top: 32px;
-    margin-bottom: 8px;
-    
-}
+
+
 
 .base-pp {
     font-weight: 400;
@@ -264,37 +233,56 @@ padding-left: 472px;
         border-bottom-left-radius: 4px;
 }
 
+
+
+
+/*Team*/
 .comand {
-background-color: #f4f4fd;
-padding-top:120px;
-padding-bottom: 120px;
-display: flex;
-
-
-}
-.command-link-f{
-    border-radius: 4px;
-
-    width: calc((100% – 3*24px) / 4);
-    display: block;
+    padding: 120px 0;
+    text-align: center;
+    background: #f4f4fd;
 }
 
-.comand-link {
-    background-color: #fff;
-
-    border-top-left-radius: 0px;
-        border-top-right-radius: 0px;
-        border-top-right-radius: 4px;
-        border-bottom-left-radius: 4px;
-    display: block;
-    
+.base-h-two-van {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    text-transform: capitalize;
+    margin-bottom: 72px;
 }
-.container-name{
+.nav-list-command {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+.nav-list-command:first-child{
+    width: calc((100% - 3 * 24px) / 4);
+}
+
+.command-link {
+    border-radius: 0px 0px 4px 4px;
+    width: calc((100% - 3 * 24px) /4);
+    background-color: #ffffff;
+}
+
+.container-name {
     padding: 32px 0px;
-    border-top-left-radius: 0px;
-        border-top-right-radius: 0px;
-        border-top-right-radius: 4px;
-        border-bottom-left-radius: 4px;
+
+}
+
+.base-h-tri {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    text-align: center;
+    padding-top: 32px;
+    margin-bottom: 8px;
 }
 
 /*Portfolio*/
