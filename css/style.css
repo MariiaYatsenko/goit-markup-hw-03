@@ -26,6 +26,8 @@ a {
 
 .two-container {
 padding: 188px 0;
+text-align: center;
+padding-left: 472px;
 }
 
 .headr{
@@ -153,12 +155,13 @@ padding: 188px 0;
     cursor: pointer;
     border-radius: 4px;
     padding: 16px 32px;
-   margin-top: 48px;
-display: block;
-min-width: 169p;
-height: 56px;
-border: none;
-cursor: pointer;
+    display: block;
+    margin-top: 48px;
+    min-width: 169p;
+    height: 56px;
+    border: none;
+    cursor: pointer;
+    margin-left: 150px;
     
 }
 
