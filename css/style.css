@@ -86,10 +86,19 @@ padding-left: 472px;
 
 .nav-list-section {
     display: flex;
-
+    margin-right: 0;
+    width: calc((100% - 72px) / 4);
     gap: 24px; 
 
 }
+.nav-list-section:last-child {
+    
+}
+
+.nav-list-section:first-child {
+    
+}
+
 .nav-list {
     display: flex;
 
@@ -97,13 +106,6 @@ padding-left: 472px;
 
 }
 
-.nav-list:last-child {
-margin-right: 0;
-}
-
-.nav-list:first-child {
-    width: calc((100% - 72px) / 4);
-}
 
 
 
