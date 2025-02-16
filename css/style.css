@@ -29,6 +29,8 @@ a {
 text-align: center;
 margin: auto 0;
 padding-left: 472px;
+padding: 188px 0 188px;
+
 }
 
 .headr{
@@ -158,7 +160,7 @@ padding-left: 472px;
     padding: 16px 32px;
     display: block;
     margin-top: 48px;
-    /*min-width: 169p;*/
+    min-width: 169px;
     height: 56px;
     border: none;
     cursor: pointer;
