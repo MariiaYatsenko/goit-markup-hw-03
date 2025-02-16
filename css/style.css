@@ -216,14 +216,13 @@ margin-right: 0;
 
 .base-h-two-van {
     font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #2e2f42;
-    text-transform: capitalize;
-    padding-top: 120px;
-    padding-bottom: 72px;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+        text-transform: capitalize;
+        margin-bottom: 72px;
 }
 
 .base-h-two-vann {
