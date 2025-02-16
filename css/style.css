@@ -251,7 +251,10 @@ padding-left: 472px;
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
-    margin-bottom: 72px;
+    margin-bottom: 72px;border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        border-top-right-radius: 4px;
+        border-bottom-left-radius: 4px;
 }
 .nav-list-command {
     display: flex;
@@ -325,13 +328,13 @@ padding-left: 472px;
     margin-bottom: 0;
 
 }
-.portfolio-item-f{
-    width:calc((100%-48px)/3);
+.portfolio-item-f {
+    width : calc((100% - 48px) / 3);
     display: block;
 }
-.portfolio-item{
+.portfolio-item {
     display: block;
-
+    width: calc((100% - 48px) / 3);
 }
 
 .portfolio-content{
