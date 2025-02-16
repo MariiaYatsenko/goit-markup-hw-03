@@ -94,7 +94,7 @@ padding-left: 472px;
 margin-right: 0;
 }
 .nav-list-section:first-child {
-    width: calc((100%-72px)/4)
+    width calc((100% - 3 * 24px) / 4)
 }
 
 .nav-list{
