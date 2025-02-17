@@ -160,6 +160,7 @@ padding-left: 472px;
     text-align: center;
     color: #fff;
     max-width: 496px;
+    margin: 0 auto;
 }
 
 .button-business {
@@ -173,13 +174,13 @@ padding-left: 472px;
     border-radius: 4px;
     padding: 16px 32px;
     display: block;
-    margin-top: 48px;
+    /*margin-top: 48px;*/
     min-width: 169px;
     height: 56px;
     border: none;
     cursor: pointer;
-    margin-left: 150px;
-    
+    /*margin-left: 150px;*/
+    margin: 48px auto 0;
 }
 
 .button-business:focus,
